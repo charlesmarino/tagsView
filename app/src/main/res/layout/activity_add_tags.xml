@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_add_tags"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.thoughtdrop.addtagssample.AddTagsActivity"
+    >
+    <com.thoughtdrop.addtagssample.TagsView
+        android:id="@+id/tags_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+
+    <com.thoughtdrop.addtagssample.TagsView
+        android:id="@+id/tags_view2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+
+    <com.thoughtdrop.addtagssample.TagsView
+        android:id="@+id/tags_view3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+
+    <com.thoughtdrop.addtagssample.TagsView
+        android:id="@+id/tags_view4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        />
+
+</LinearLayout>
